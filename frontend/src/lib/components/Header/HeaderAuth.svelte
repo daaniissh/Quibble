@@ -1,10 +1,11 @@
 <script>
 
-	import Notification from "../Icons/Notification.svelte";
-	import Plus from "../Icons/Plus.svelte";
+	import Notification from "../Icons/NotificationIcon.svelte";
+	import PlusIcon from "../Icons/PlusIcon.svelte";
+
 
 </script>
-<button class="btn btn-md btn-primary font-bold"><Plus /> <span>Create New</span></button>
+<button class="btn btn-md btn-primary font-bold"><PlusIcon /> <span>Create New</span></button>
 <Notification />
 <div draggable="false" class="avatar cursor-pointer select-none">
   <div class="w-[50px] rounded-[15px]">
