@@ -1,5 +1,6 @@
 <script>
 	import Header from "$lib/components/Header/Header.svelte";
+	import LeftPanel from "$lib/components/LeftPanel/LeftPanel.svelte";
 
 </script>
 <svelte:head>
@@ -7,3 +8,4 @@
 </svelte:head>
 
 <Header/>
+<LeftPanel/>
