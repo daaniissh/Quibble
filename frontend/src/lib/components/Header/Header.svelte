@@ -1,15 +1,15 @@
 <script>
-	import All from '../Icons/All.svelte';
-	import Home from '../Icons/Home.svelte';
-	import Popular from '../Icons/Popular.svelte';
-	import Search from '../Icons/Search.svelte';
+	import All from '../Icons/AllIcon.svelte';
+	import Home from '../Icons/HomeIcon.svelte';
+	import Popular from '../Icons/PopularIcon.svelte';
+	import Search from '../Icons/SearchIcon.svelte';
 	import HeaderAuth from './HeaderAuth.svelte';
 	import HeaderNoAuth from './HeaderNoAuth.svelte';
 
-	let auth = $state(false);
+	let auth = $state(true);
 </script>
 
-<div class="bg-neutral flex h-[75px] w-full flex-row items-center justify-between">
+<div class="bg-neutral fixed flex h-[75px] w-full flex-row items-center justify-between">
 	<!-- quibble icon -->
 	<div class="flex h-full items-center pl-5">
 		<h1 class="text-primary text-center text-3xl font-black">Quibble</h1>
